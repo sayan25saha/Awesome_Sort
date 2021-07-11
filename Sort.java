@@ -60,13 +60,12 @@ public class Sort {
 
 public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
-      //  int n= scan.nextInt();
+        int n= scan.nextInt();
 
-        String s=scan.nextLine();
-        int n=s.length();
+        
         int[] arr=new int[n];
         for(int i=0;i<n;i++){
-         //   arr[i]=Integer.parseInt(s.charAt(i));
+          arr[i]=scan.nextInt();
         }
         Sort sort=new Sort();
         int[] res=sort.sort(arr,n);
