@@ -1,4 +1,4 @@
-package techmahindra;
+
 import java.util.*;
 
 public class Sort {
